@@ -1,4 +1,4 @@
-import 'package:graphql_parser/graphql_parser.dart';
+import 'package:graphql_parser2/graphql_parser2.dart';
 
 String getOperationName(String rawDoc) {
   final List<Token> tokens = scan(rawDoc);

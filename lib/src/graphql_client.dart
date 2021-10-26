@@ -1,14 +1,12 @@
 import 'dart:async';
 
-import 'package:meta/meta.dart';
-
-import 'package:flutter_graphql/src/core/query_manager.dart';
-import 'package:flutter_graphql/src/core/query_result.dart';
-import 'package:flutter_graphql/src/core/observable_query.dart';
-import 'package:flutter_graphql/src/core/query_options.dart';
-
-import 'package:flutter_graphql/src/link/link.dart';
 import 'package:flutter_graphql/src/cache/cache.dart';
+import 'package:flutter_graphql/src/core/observable_query.dart';
+import 'package:flutter_graphql/src/core/query_manager.dart';
+import 'package:flutter_graphql/src/core/query_options.dart';
+import 'package:flutter_graphql/src/core/query_result.dart';
+import 'package:flutter_graphql/src/link/link.dart';
+import 'package:meta/meta.dart';
 
 /// The link is a [Link] over which GraphQL documents will be resolved into a [FetchResult].
 /// The cache is the initial [Cache] to use in the data store.
